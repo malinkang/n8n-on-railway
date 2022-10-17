@@ -4,6 +4,8 @@
 
 set -euo
 
+docker pull n8nio/n8n
+
 docker run \
     -e N8N_ENCRYPTION_KEY \
     -e GENERIC_TIMEZONE \
