@@ -4,7 +4,7 @@
 
 set -euo
 
-docker pull n8nio/n8n
+docker pull n8nio/n8n::0.210.2
 
 docker run \
     -e N8N_ENCRYPTION_KEY \
